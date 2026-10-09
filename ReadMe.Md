@@ -1,0 +1,1 @@
+i structured this to the total cost of items 

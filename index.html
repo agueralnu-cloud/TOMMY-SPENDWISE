@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpendWise Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="dashboard">
+
+    
+    <aside class="sidebar">
+        <a href="#" class="logo">Spend<span>Wise</span></a>
+
+        <p class="menu-label">MENU</p>
+
+        <nav class="navigation">
+            <a href="#" class="nav-link active"><span>▦</span> Dashboard</a>
+            <a href="#" class="nav-link"><span>↔</span> Transactions</a>
+            <a href="#" class="nav-link"><span>▤</span> Budgets</a>
+            <a href="#" class="nav-link"><span>◷</span> Reports</a>
+            <a href="#" class="nav-link"><span>⚙</span> Settings</a>
+        </nav>
+
+        <div class="sidebar-bottom">
+            <p class="menu-label">YOUR ACCOUNT</p>
+            <div class="user-profile">
+                <div class="avatar">EA</div>
+                <div>
+                    <strong>Elijah Aguer</strong>
+                    <small>Personal Account</small>
+                </div>
+            </div>
+        </div>
+    </aside
+    <main class="main-content">
+
+        
+        <header class="topbar">
+            <div>
+                <p class="greeting">Welcome back, Elijah 👋</p>
+                <h1>Dashboard</h1>
+            </div>
+
+            <div class="header-actions">
+                <span class="period">October 2026</span>
+                <div class="avatar">EA</div>
+            </div>
+        </header>
+
+        <section class="overview">
+            <div class="section-heading">
+                <div>
+                    <h2>Financial Overview</h2>
+                    <p>Here's how your money is looking this month.</p>
+                </div>
+                <span class="status">Monthly Summary</span>
+            </div>
+
+            
+            <div class="summary-grid">
+                <article class="summary-card">
+                    <p>Total Balance</p>
+                    <h2>UGSh 84,500</h2>
+                    <small class="positive">↑ 8.2% from last month</small>
+                </article>
+
+                <article class="summary-card">
+                    <p>Total Income</p>
+                    <h2>UGSh 120,000</h2>
+                    <small class="positive">↑ 5.4% from last month</small>
+                </article>
+
+                <article class="summary-card">
+                    <p>Total Expenses</p>
+                    <h2>UGSh 35,500</h2>
+                    <small class="negative">↑ 2.1% from last month</small>
+                </article>
+            </div>
+        </section>
+
+
+        <section class="categories">
+            <div class="section-heading">
+                <div>
+                    <h2>Spending Categories</h2>
+                    <p>Your budget breakdown for October.</p>
+                </div>
+            </div>
+
+            <div class="category-grid">
+
+                <article class="category-card" tabindex="0">
+                    <div class="card-top">
+                        <div class="category-icon food">🍽️</div>
+                        <span class="category-tag">Essential</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>Food</h3>
+                        <p>Groceries and meals</p>
+                    </div>
+                    <div class="amount-row">
+                        <strong>UGSh 8,500</strong>
+                        <span>68%</span>
+                    </div>
+                    <div class="progress"><span style="width:68%"></span></div>
+                    <small>of UGSh 12,500 budget</small>
+                </article>
+
+                <article class="category-card" tabindex="0">
+                    <div class="card-top">
+                        <div class="category-icon transport">🚗</div>
+                        <span class="category-tag">Essential</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>Transport</h3>
+                        <p>Fare and fuel</p>
+                    </div>
+                    <div class="amount-row">
+                        <strong>UGSh 4,200</strong>
+                        <span>42%</span>
+                    </div>
+                    <div class="progress"><span style="width:42%"></span></div>
+                    <small>of UGSh 10,000 budget</small>
+                </article>
+
+                <article class="category-card" tabindex="0">
+                    <div class="card-top">
+                        <div class="category-icon rent">🏠</div>
+                        <span class="category-tag">Essential</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>Rent</h3>
+                        <p>Housing expenses</p>
+                    </div>
+                    <div class="amount-row">
+                        <strong>UGsh 12,000</strong>
+                        <span>100%</span>
+                    </div>
+                    <div class="progress"><span style="width:100%"></span></div>
+                    <small>of UGSh 12,000 budget</small>
+                </article>
+
+                <article class="category-card" tabindex="0">
+                    <div class="card-top">
+                        <div class="category-icon entertainment">🎬</div>
+                        <span class="category-tag">Lifestyle</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>Entertainment</h3>
+                        <p>Movies and outings</p>
+                    </div>
+                    <div class="amount-row">
+                        <strong>UGSh 3,000</strong>
+                        <span>30%</span>
+                    </div>
+                    <div class="progress"><span style="width:30%"></span></div>
+                    <small>of UGSh 10,000 budget</small>
+                </article>
+
+                <article class="category-card" tabindex="0">
+                    <div class="card-top">
+                        <div class="category-icon savings">💰</div>
+                        <span class="category-tag">Financial goal</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>Savings</h3>
+                        <p>Future financial goals</p>
+                    </div>
+                    <div class="amount-row">
+                        <strong>UGSh 5,000</strong>
+                        <span>50%</span>
+                    </div>
+                    <div class="progress"><span style="width:50%"></span></div>
+                    <small>of UGSh 10,000 target</small>
+                </article>
+
+                <article class="category-card" tabindex="0">
+                    <div class="card-top">
+                        <div class="category-icon utilities">💡</div>
+                        <span class="category-tag">Essential</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>Utilities</h3>
+                        <p>Electricity, water and internet</p>
+                    </div>
+                    <div class="amount-row">
+                        <strong>UGSh 2,800</strong>
+                        <span>56%</span>
+                    </div>
+                    <div class="progress"><span style="width:56%"></span></div>
+                    <small>of UGSh 5,000 budget</small>
+                </article>
+
+            </div>
+        </section>
+
+        <footer class="footer">
+            SpendWise © 2026 · Your money, managed wisely.
+        </footer>
+
+    </main>
+</div>
+
+</body>
+</html>
+
